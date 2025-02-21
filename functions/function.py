@@ -1,6 +1,6 @@
 # Limited to printing smthng on the console
 def collo (first_name = "Collo", l_name="Rotich"):
-    print(f"Hello {first_name} {l_name}")
+    print(f"Hello {first_name.upper()} {l_name.upper()}")
     print("Welcome ")
     
 # Printed only on console

@@ -3,20 +3,20 @@ from abc import ABC,abstractmethod
 class Stream(ABC):
 
     @abstractmethod
-    def open():
+    def open(self):
         pass
 
     @abstractmethod
-    def read():
+    def read(self):
         pass
 
 class File(Stream):
       
-    def open():
+    def open(self):
         print("open from file")
 
    
-    def read():
+    def read(self):
         print("Read from file")
 
 file =File()

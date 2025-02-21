@@ -1,4 +1,4 @@
-# Abstractio
+# Abstraction
 
 Abstraction in object-oriented programming is the concept of hiding the complex implementation details and showing only the essential features of the object. In Python, abstraction can be achieved using abstract classes and methods provided by the abc module.
 

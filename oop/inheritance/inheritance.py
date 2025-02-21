@@ -12,7 +12,7 @@ class Mammal(Animal):
 
 class Fish(Animal):
    def swim(self):
-      print("Swiming")
+      print("Swimming")
 
 tilapia = Fish()
 sheep = Mammal()
