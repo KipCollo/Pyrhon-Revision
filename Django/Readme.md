@@ -53,5 +53,14 @@ django-admin startproject <project-name>
 - `Run the Django Project`:-Now that you have a Django project, you can run it, and see what it looks like in a browser.
 
 ```bash
-py manage.py runserver
+python3 manage.py runserver
 ```
+
+- `Create App`:- An app is a web application that has a specific meaning in your project, like a home page, a contact form, or a members database.
+Start by navigating to the selected location where you want to store the app,and run the command below.
+
+```bash
+python3 manage.py startapp <app-name>
+```
+
+If the server is still running, and you are not able to write commands, press [CTRL] [BREAK], or [CTRL] [C] to stop the server and you should be back in the virtual environment.
